@@ -32,3 +32,13 @@
 .h2 {
     color: white;
 }
+
+.top-bar-right{
+    letter-spacing: 0.2em;
+}
+
+#button{
+border-radius: 0.2em;
+    margin-left: 12%;
+    width: 100%;
+}
