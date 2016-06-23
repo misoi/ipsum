@@ -1,0 +1,34 @@
+.buttons {
+    border-radius: 100px/50px;
+    background-color: red;
+    font-size: 20px;
+    width: 130px;
+    height: 50px;
+    -moz-border-radius: 100px/ 50px;
+    -webkit-border-radius: 100px/ 50px;
+    margin-left: 10px;
+    margin-right: 20px;
+}
+
+.menubar {
+    height: 0px;
+}
+
+.button {
+    background-color: darkred;
+}
+
+.rowtwo {
+    background-image: url(../img/me.jpeg);
+    background-repeat: no-repeat;
+    background-image: cover;
+    margin-left: 20px;
+}
+
+.innerdiv {
+    height: 90px;
+}
+
+.h2 {
+    color: white;
+}
