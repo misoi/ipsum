@@ -40,6 +40,7 @@ body {
     width: 20%;
     float: left;
     height: 300px;
+    width: cover;
 }
 
 #slider figure {
@@ -57,7 +58,7 @@ body {
 /*===================================================sliding width=========================================================*/
 
 .slider {
-    height: 300px;
+    height: auto;
     background-color: #F2F1F0;
 }
 

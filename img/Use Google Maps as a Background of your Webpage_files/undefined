@@ -1,0 +1,12 @@
+<!DOCTYPE html> <html> <head> <meta charset=utf-8/> <title>Digital Inspiration</title> <style> body {width:450px; margin:5em auto; background-color:#fefefe;} form {margin:2em 0} </style> </head> <body onload="document.search.s.focus()"> <p align="center"><a href="http://www.labnol.org/"><img src="http://img.labnol.org/files/logo-XS.png"/></a></p> <form action="http://www.labnol.org/" name="search" method="get"> <input style="width:320px; padding:4px; font-size:1em;margin-right:5px;" x-webkit-speech="" autocomplete="off" type="text" name="s"> <input type="submit" value="Search Site" style="padding:4px 8px; font-size:1em;"></form> <p>We are working hard to fix all the missing resources at <a href="http://www.labnol.org/">Digital Inspiration</a>. If you need anything urgent, please send me an email at <a href="mailto:a&#109;it&#64;labn&#111;l.o&#114;g">am&#105;&#116;&#64;&#108;&#97;b&#110;o&#108;.&#111;rg</a>.</p> <p align="center" style="font-family:arial;font-variant: small-caps"><small><a href="http://www.facebook.com/digital.inspiration">facebook</a> | <a href="http://twitter.com/labnol">twitter</a> | <a href="http://www.youtube.com/labnol">youtube</a> | <a href="http://feeds.labnol.org/labnol">rss</a></small></p> <script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-50062-6', 'labnol.org');
+  ga('send', 'pageview');
+  var url = "/404/?url=" + window.location.pathname + window.location.search + "&from=" + document.referrer;
+  ga('send', 'pageview', url);
+
+</script> </body> </html> 

@@ -1,13 +1,17 @@
-.top-bar-left li:hover{
-   
-    background-color:rgba(230, 51, 51, 0.1);
+body {
+    background-color: #F2F1F0;
+    max-width: 100%;
 }
 
-.top-bar-left a{
+.top-bar-left li:hover {
+    background-color: rgba(230, 51, 51, 0.1);
+}
+
+.top-bar-left a {
     color: grey;
 }
 
-.top-bar-left a:hover{
+.top-bar-left a:hover {
     color: red;
 }
 
@@ -24,12 +28,12 @@
     margin-right: 20px;
 }
 
-.buttons li:hover{
+.buttons li:hover {
     background-color: transparent;
 }
+
 .menubar {
     height: 0px;
-    
 }
 
 .button {
@@ -41,6 +45,8 @@
     background-repeat: no-repeat;
     background-image: cover;
     margin-left: 20px;
+    padding: 0;
+    margin: 0;
 }
 
 .innerdiv {
@@ -49,16 +55,43 @@
 
 .h2 {
     color: white;
+    font-family: 'Open Sans Condensed', sans-serif;
 }
 
-.top-bar-right{
+.top-bar-right {
     letter-spacing: 0.2em;
 }
 
-#button{
-border-radius: 0.2em;
+#button {
+    border-radius: 0.2em;
     margin-left: 12%;
     width: 100%;
 }
 
+.overlay {
+    width: 100%;
+    background-color: rgb(0, 0, 0);
+    /* Black fallback color */
+    background-color: rgba(0, 0, 0, 0.5);
+    /* Black w/opacity */
+    overflow-x: hidden;
+    /* Disable horizontal scroll */
+}
 
+.button {
+    background-color: #ff1744;
+}
+
+.p {
+    color: whitesmoke;
+}
+
+.listrow {
+    background-color: white;
+    padding-left: 30px;
+}
+
+.padding {
+    margin-left: 30px;
+    margin-right: 50px;
+}
