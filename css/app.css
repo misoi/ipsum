@@ -44,7 +44,7 @@ body {
     background-image: url(../img/me.jpeg);
     background-repeat: no-repeat;
     background-image: cover;
-    margin-left: 20px;
+    margin-left: 0px;
     padding: 0;
     margin: 0;
 }
@@ -92,6 +92,109 @@ body {
 }
 
 .padding {
-    margin-left: 30px;
+    margin-left: 10px;
     margin-right: 50px;
+}
+
+.googlemap {
+    background-image: url(https://www.google.co.ke/maps/place/Eclectic+Kenya/@-1.2861639,36.8108215,17z/data=!3m1!4b1!4m5!3m4!1s0x182f10cfc7c81219:0xa29a60781d3025ff!8m2!3d-1.2861693!4d36.8130156?hl=en);
+    width: 100%;
+}
+
+
+/*slider*/
+
+img {
+    width: 100%;
+}
+
+.slide-window {
+    /*border:1px solid black;*/
+    width: 105%;
+    height: auto;
+    /* background-color:red;*/
+    overflow: hidden;
+    position: relative;
+    margin: 0px;
+    padding: 0px;
+}
+
+.nav {
+    display: block;
+    text-indent: -10000px;
+    position: absolute;
+    cursor: pointer;
+}
+
+.info-bar {
+    position: absolute;
+    bottom: 0;
+    height: 20%;
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 100%;
+}
+
+#rightNav,
+#leftNav {
+    top: calc(50% - 26px);
+    position: absolute;
+    width: 20px;
+    height: 53px;
+    background-image: url(http://www.nhm.ac.uk/etc/designs/nhmwww/img/arrows/slider-arrow.png);
+    background-repeat: no-repeat;
+    z-index: 999;
+    /*What does this do?*/
+}
+
+#rightNav {
+    right: 0;
+    -webkit-transform: scaleX(-1);
+}
+
+#leftNav {
+    left: 0;
+}
+
+.slide-holder {
+    width: 300%;
+    background-color: blue;
+    margin-left: 0%;
+    transition: margin-left 1s;
+    /*  this is the bit that needs to change to slide the slide*/
+}
+
+.slide {
+    width: 33.33%;
+    height: auto;
+    float: left;
+}
+
+.div {
+    background-color: #ff1744;
+}
+
+.b {
+    background-color: aqua;
+}
+
+.b2 {
+    background-color: #C62828;
+}
+
+.back {
+    background-image: url(../img/1.jpg);
+    width: 100%;
+    background-repeat: no-repeat;
+    background-image: cover;
+}
+
+.rows {
+    padding: 0px;
+    margin: 0px;
+    max-width: 100%;
+    margin-right: 0px;
+}
+
+.col {
+    padding: 5px;
 }
