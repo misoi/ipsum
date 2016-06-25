@@ -63,6 +63,12 @@ body {
 }
 
 .fullwidth {
-    width: 100%;
+    max-width: 100%;
     background-color: white;
+    padding: 0px;
+    margin: 0px;
+}
+
+.firstrow {
+    margin-right: 25px;
 }

@@ -17,7 +17,7 @@ body {
 
 .buttons {
     border-radius: 100px/50px;
-    background-color: red;
+    background-color: #EC407A;
     color: whitesmoke;
     font-size: 20px;
     width: 130px;
@@ -37,7 +37,7 @@ body {
 }
 
 .button {
-    background-color: red;
+    background-color: #EC407A;
 }
 
 .rowtwo {
@@ -79,7 +79,7 @@ body {
 }
 
 .button {
-    background-color: #ff1744;
+    background-color: #EC407A;
 }
 
 .p {
@@ -170,7 +170,7 @@ img {
 }
 
 .div {
-    background-color: #ff1744;
+    background-color: #EC407A;
 }
 
 .b {
@@ -178,7 +178,7 @@ img {
 }
 
 .b2 {
-    background-color: #C62828;
+    background-color: #E91E63;
 }
 
 .back {
@@ -196,7 +196,7 @@ img {
 }
 
 .footer {
-    background-color: red;
+    background-color: aqua;
 }
 
 .ul a {
@@ -204,4 +204,8 @@ img {
     margin: 5px;
     display: inline-block;
     color: black;
+}
+
+.th {
+    height: 50px;
 }
