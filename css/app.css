@@ -209,3 +209,130 @@ img {
 .th {
     height: 50px;
 }
+
+#now{
+    margin-top: 2em;
+    background-color: white;
+}
+
+#now h2{
+    margin-top: 0.2em;
+    background-color:dodgerblue;
+    color: white;
+    font-size: 2em;
+}
+
+#now p{
+    text-align: center;
+}
+
+
+#imagenet img{
+    height: 100%;
+    
+    max-width: 1280px;
+    
+}
+
+#net1{
+    background-color: firebrick;
+    color: white;
+    margin-top: 2%;
+  
+    
+}
+
+#net2{
+    background-color:purple;
+     color: white;
+    margin-top: 2%;
+}
+
+#but1{
+   background-color: firebrick;
+    margin-top: 4%;
+    width: 100%;
+    
+}
+
+#but2{
+    background-color:purple;
+    margin-top: 4%;
+    width: 100%;
+}
+
+.butone{
+    background-color: white;
+    margin-top: 4%;
+}
+
+
+/* Footer */
+.footer {
+  background-color: #0098db;
+  color: #FFF;
+  padding: 15px 0;
+	position: relative;
+}
+.footer-logo {
+	text-align: right;
+}
+.footer .footer-links {
+	margin-top: 30px;
+}
+.footer .footer-links a {
+  color: #FFF;
+  font-weight: bold;
+  text-decoration: underline;
+  margin-left: 5px;
+}
+.footer-social {
+  text-align: right;
+}
+.footer-social .social-item {
+  display: inline-block;
+  width: 28px;
+  height: 28px;
+  line-height: 28px;
+  overflow: hidden;
+  text-align: left;
+  text-indent: -99em;
+  background-color: #d20074;
+  background-image: url(../images/social-icons.png);
+  background-repeat: no-repeat;
+  background-position: 28px 28px;
+  color: #FFF;
+}
+.footer-social .social-item-facebook {
+  background-color: #3b5998;
+  background-position: 0 0;
+}
+.footer-social .social-item-facebook:hover {
+  background-color: #4264aa;
+}
+.footer-social .social-item-twitter {
+  background-color: #55acee;
+  background-position: 0 -28px;
+}
+.footer-social .social-item-twitter:hover {
+  background-color: #6cb7f0;
+}
+.footer-social .social-item-linkedin {
+  background-color: #0077b5;
+  background-position: 0 -56px;
+}
+.footer-social .social-item-linkedin:hover {
+  background-color: #0088cf;
+}
+.footer-social .social-item-googleplus {
+  background-color: #dd4b39;
+  background-position: 0 -84px;
+}
+.footer-social .social-item-googleplus:hover {
+  background-color: #e15f4f;
+}
+#locationMessageModal .modal-body {
+  font-size: 16px;
+}
+
+
